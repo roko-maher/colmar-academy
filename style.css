@@ -3,13 +3,13 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100;
 }
 /* Navigation bar */
 .header{
     display: flex;
     height: 64px;
-    padding-inline: 24px;
+    padding-inline: 1.5rem;
     align-items: center;
     justify-content: space-between;
 
@@ -351,3 +351,12 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
+
+/* media queries*/
+
+@media screen and (max-width:1800px){
+    .learning1{
+        font-size:1.5rem;
+    }
+}
+
