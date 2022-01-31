@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body{
     font-family: 'Montserrat', sans-serif;
@@ -360,3 +361,367 @@ footer{
     }
 }
 
+=======
+html,
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100;
+}
+/* Navigation bar */
+.header{
+    display: flex;
+    height: 64px;
+    padding-inline: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.header-logo img {
+    width: 50px;
+}
+
+.header-logo span{
+    opacity: 0.5;
+}
+
+/* First Section */
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li{
+    padding-inline: 16px;
+}
+
+.first-section{
+    background-color: gainsboro;
+    display: flex;
+}
+
+.first-section-photo{
+    width: 60%;
+    padding: 32px 24px 32px 24px;
+}
+
+.first-section-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.learning1{
+    font-size: 3rem;
+}
+
+.learning2{
+    margin-top: -40px;
+}
+
+.learning2,
+.learning3{
+    font-size: 2.5rem;
+}
+
+.learning3{
+    display: flex;
+    color:white;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(57, 57, 73) ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.second-section{
+    display: flex;
+    
+}
+
+.practicing-container{
+    width: 60%;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-left: 24px;
+
+    
+}
+
+.practicing-paragraph strong{
+    font-size: 3rem;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.practicing-paragraph p{
+    font-size: 1.5rem;
+    padding-bottom: 32px;
+}
+
+.boxes{
+    width: 40%;
+    border-left: 1px solid rgb(231, 223, 223);
+    padding-top:32px;
+    padding-bottom: 32px;
+}
+
+.orientation-box,
+.campus-box,
+.lecture-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width:65%;
+    padding: 16px;
+}
+
+.orientation,
+.campus,
+.lecture{
+    display: flex;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.campus,
+.lecture{
+    padding-top: 16px;
+}
+
+.orientation-img,
+.campus-img,
+.lecture-img{
+    height: auto;
+    width:35%;
+    padding-right: 32px;
+}
+
+/* Second section */
+
+.second-section span{
+    color: rgb(0, 147, 206)
+}
+
+.lecture{
+    background-color:whitesmoke;
+}
+
+.second-section h3{
+    font-size: 2rem;
+    margin: 0 ;
+}
+
+.sranje{
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.sranje2{
+    margin-bottom: 8px;
+}
+
+.orientation{
+    border-bottom: 10px double rgb(231, 223, 223);
+}
+
+/* Third section */
+
+.third-section{
+    background-color: whitesmoke;
+}
+
+.glavni-naslov{
+    font-size: x-large;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.pakao{
+    margin-left: 72px;  
+    margin-right: 72px;
+    padding-bottom: 32px;     
+}
+
+.pakao span{
+    font-size: larger;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.row2{
+    display:flex;
+    justify-content: center;
+}
+
+.sofware-engine,
+.computer-art,
+.design,
+.data,
+.business,
+.marketing {
+    background-color: white;
+    
+}
+
+.sofware-engine,
+.computer-art{
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.design{
+    margin-bottom: 32px;
+}
+
+.data,
+.business{
+    margin-right: 32px;
+}
+
+.sofware-paragraph,
+.computer-paragraph,
+.design-paragraph,
+.data-paragraph,
+.business-paragraph,
+.marketing-paragraph{
+    margin-top:16px;
+}
+
+.software-text,
+.computer-text,
+.design-text,
+.data-text,
+.business-text,
+.marketing-text{
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+
+/* Last section */
+
+.glavni-naslov2{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin: 4px;
+    
+}
+
+.pakao2{
+    display: flex;
+}
+
+.first-window{
+    width: 60%;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.first-window h1{
+    word-spacing: 10px;
+    margin:0;
+}
+
+.first-window p{
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.first-window video{
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.second-window{
+    width:40%;
+
+}
+
+.fisma{
+    padding:16px;
+    background-color: rgb(238, 234, 234);
+    display: flex;
+}
+
+.fisma img{
+    width:35%;
+    height: auto;
+    padding-right: 16px;
+}
+
+.fisma-text{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+}
+
+.fisma-text p{
+    margin:0;
+}
+
+.now-then-fisma{
+    padding:16px;
+    display: flex;
+}
+
+.now-then-fisma img{
+    width:35%;
+    height: auto;
+    padding-right: 16px;
+}
+
+.now-then-fisma-text{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+}
+
+.now-then-fisma-text p{
+    margin: 0;
+}
+
+footer{
+    border-top: 1px solid rgb(214, 212, 212);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* media queries*/
+
+@media screen and (max-width:1800px){
+    .learning1{
+        font-size:1.5rem;
+    }
+}
+
+>>>>>>> 2236ec3604c1fd0b40f5dd0e68ce4150628f7d98
